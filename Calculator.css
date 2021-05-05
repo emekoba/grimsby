@@ -1,0 +1,35 @@
+#calculator-body{
+    display: flex;
+    flex-direction: column;
+    height:80vh;
+    width:80vw;
+    background-color: indigo;
+}
+#bottompads{
+    background-color: teal;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+#numberpad{
+    background-color: blue ;
+    flex: 2;
+}
+#operatorpad{
+    background-color: yellow;
+    flex: 1;
+
+}
+#screen{
+    background-color: blue;
+    flex: 1;
+
+}
+#motherbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black;     */
+    height: 100vh;
+    width: 100vw;
+}
