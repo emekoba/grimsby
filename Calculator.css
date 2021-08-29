@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+.calc_body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 2px, 2px, 8px black;
+    border-radius: 8px;
+
+}
+
+.result{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    font-size: 2.5rem;
+
+}
