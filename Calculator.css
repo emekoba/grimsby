@@ -25,3 +25,27 @@
     font-size: 2.5rem;
 
 }
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* font-size: 5rem; */
+}
+.buttons button{
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    transition: .4s all linear;
+
+}
+.buttons button:hover{
+    background-color: cadetblue;
+
+}
+.buttons button:active{
+    background-color: cadetblue;
+
+}
+.equal{
+    background-color: coral;
+}
