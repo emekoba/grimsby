@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=ZCOOL+KuaiLe&display=swap');
 *{
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: 'Indie Flower', sans-serif;
 
 }
 .calc_body{
