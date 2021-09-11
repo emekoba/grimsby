@@ -1,8 +1,5 @@
-const calculator = document.getElementById("calculator-body");
+function getInputValue(){
+    let input = event.target.innerText;
+    console.log(input)
 
-// calculator.innerHTML="Bailey";
-
-
-console.log("hey russ");
-
-
+}

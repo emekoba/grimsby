@@ -1,35 +1,51 @@
-#calculator-body{
-    display: flex;
-    flex-direction: column;
-    height:80vh;
-    width:80vw;
-    background-color: indigo;
-}
-#bottompads{
-    background-color: teal;
-    flex: 2;
-    display: flex;
-    flex-direction: row;
-}
-#numberpad{
-    background-color: blue ;
-    flex: 2;
-}
-#operatorpad{
-    background-color: yellow;
-    flex: 1;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=ZCOOL+KuaiLe&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Indie Flower', sans-serif;
 
 }
-#screen{
-    background-color: blue;
-    flex: 1;
+.calc_body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 2px, 2px, 8px black;
+    border-radius: 8px;
 
 }
-#motherbody{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: black;     */
-    height: 100vh;
-    width: 100vw;
+
+.result{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    font-size: 2.5rem;
+
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* font-size: 5rem; */
+}
+.buttons button{
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    transition: .4s all linear;
+
+}
+.buttons button:hover{
+    background-color: cadetblue;
+
+}
+.buttons button:active{
+    background-color: cadetblue;
+
+}
+.equal{
+    background-color: coral;
 }
